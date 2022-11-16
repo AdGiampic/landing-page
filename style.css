@@ -30,6 +30,11 @@ a{
     color: #f9faf8;
 } 
 
+.hero{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
 .hero-title {
     font-size: 48px;
     font-weight: bolder;
@@ -40,4 +45,53 @@ a{
     width:750px;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.signup{
+    background-color: #007bff;
+    border-radius: 6px;
+    height: 25px;
+    color: #f9faf8;
+    font-weight: bold;
+    width: 85px;
+}
+
+.cards-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.img-container{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+}
+
+.description{
+    align-content: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.closing-text{
+    text-align: center;
 }
