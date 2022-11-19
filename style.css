@@ -7,6 +7,7 @@ body{
     color: white;
     padding-left: 150px;
     padding-right: 150px;
+    height: 500px;
 }
 
 .header{
@@ -31,9 +32,13 @@ a{
 } 
 
 .hero{
-    margin-top: 75px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
+}
+
+.text-wrap{
+    margin-top: 45px;
 }
 .hero-title {
     font-size: 48px;
@@ -58,11 +63,17 @@ a{
     border: 2px solid white;
 }
 
+.img-wrap{
+    border: 2px solid #f9faf8;
+    height: 400px;
+}
+
 .cards-title{
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-top: 20px;
 }
 
 .cards{
@@ -71,20 +82,26 @@ a{
    
 }
 
+.card{
+    width: 300px;
+    flex-wrap: wrap;
+    text-align: justify;
+    text-justify: distribute;
+    font-size: 15px;
+}
+
 .img-container{
     width: 150px;
     height: 150px;
     border: 2px solid #007bff;
     border-radius: 25px;
+    margin-left: 75px;
 }
 
-.description{
-    align-content: center;
-}
 
 .quote{
     background-color: #e5e7eb;
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
     color: #1f2937;
     padding-left: 150px;
@@ -97,7 +114,7 @@ a{
 .closing{
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 30px;
 }
 
 .closing-box{
